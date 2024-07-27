@@ -1,0 +1,122 @@
+{
+	"compiler": {
+		"version": "0.8.18+commit.87f61d96"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "_name",
+						"type": "string"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_num",
+						"type": "uint256"
+					}
+				],
+				"name": "add",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "deploy",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"name": "deployArray",
+				"outputs": [
+					{
+						"internalType": "contract First",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_num",
+						"type": "uint256"
+					}
+				],
+				"name": "get",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					},
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"revision/second.sol": "Second"
+		},
+		"evmVersion": "paris",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"revision/first.sol": {
+			"keccak256": "0xecf65b1d1e5cec5156aa2126e536ed85b269c24aa86eecfc72d639a0ca906433",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://9b23d95ea1ec5f4963fc02f2c4b9a17a6cb20f695f9c7bdfc3abc0163b2dd929",
+				"dweb:/ipfs/QmTbA6VdRX2qvnoUYLf53zCCqsgbPfz9xtVmoz5FFcti3Y"
+			]
+		},
+		"revision/second.sol": {
+			"keccak256": "0x2cd92d1dd18bfbdaf20229f770a866a112d37ffd3994019d586ef11301bd09a6",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://47d66f4ba1ced4df273a5a40d67a2351cbd31af6c15493983104045dd33c5d1b",
+				"dweb:/ipfs/QmZu4Yxgxj7TqdVaqKv8ty9X5hxTufB8auN4VEM1ngnkgZ"
+			]
+		}
+	},
+	"version": 1
+}
