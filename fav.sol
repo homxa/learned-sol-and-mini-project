@@ -11,7 +11,6 @@ mapping(string=> uint256) public getuserFavNum;
 NewUsers[] public listofUsers;
 
 function addnewUsers(string memory _name, uint256 _num)public{
-
 listofUsers.push(NewUsers(_name,_num));
 getuserFavNum[_name] = _num;
 

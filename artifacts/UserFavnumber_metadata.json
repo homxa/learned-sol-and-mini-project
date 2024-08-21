@@ -95,11 +95,11 @@
 	},
 	"sources": {
 		"fav.sol": {
-			"keccak256": "0x158daaa9e24f190bb6683b51a067bc9023b719e6d4e3e8761faab348ba737ff5",
+			"keccak256": "0xec46c657e9c6a995709ee6426d49a60fc6937a6212ad4bee088e62fd76a01cb6",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://f9d32fa8475ca2d086cdd75da73f9ffb603cc222eb57cb8698728d056f09424e",
-				"dweb:/ipfs/QmYgcpzKPxM3E2FerY4kQsMA8iwE6QoRQ5R6s1uK9Mnop5"
+				"bzz-raw://6c401ba4d3227c0af3186bca4a91338ed9c293e11d0bd246c8131cad5f6c61ad",
+				"dweb:/ipfs/QmWp8dZw8RgdAvYeoiFx4sKu62kmJdtGa1T3Yxnk491HpG"
 			]
 		}
 	},
